@@ -1,9 +1,10 @@
 def square_array(array)
   # your code here
-  length = array.length
+  counter
   new_numbers = []
-  length.times do |squared|
-    new_numbers << squared * squared
+  while counter < array.length
+    new_numbers << array[counter]
+    counter += 1
   end
   new_numbers
 end
