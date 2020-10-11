@@ -3,7 +3,7 @@ def square_array(array)
   length = array.length
   new_numbers = []
   length.times do |squared|
-    new_numbers << square ** 2
+    new_numbers << squared ** 2
   end
   new_numbers
 end
