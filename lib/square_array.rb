@@ -5,4 +5,5 @@ def square_array(array)
   length.times do |squared|
     new_numbers << square ** 2
   end
+  new_numbers
 end
